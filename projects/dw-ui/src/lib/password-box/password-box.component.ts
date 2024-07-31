@@ -48,15 +48,17 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   public iconChooseTitle = input<string>('Generate strong password for me');
   public switchToAndFocusInputAfterGenerate = input<boolean>(true);
 
-  public passwordStrengthChanged = output<StrengthChangedEvent>()
+  public passwordStrengthChanged = output<StrengthChangedEvent>();
 
   public value = '';
-  public strengthWord: string;
-  public strengthValue = 0;
-  public isDisabled: boolean;
   public type: PasswordBoxType = 'password';
+
   public onChange: (value: string) => void = (value: string) => undefined;
   public onTouched: () => void = () => undefined;
+
+  protected isDisabled: boolean;
+  protected strengthWord: string;
+  protected strengthValue = 0;
 
   private chooseIconElement: HTMLElement | null;
   private inputElement: HTMLElement | null;
@@ -77,7 +79,6 @@ export class PasswordBoxComponent implements ControlValueAccessor {
     if (this.onChange) {
       this.onChange(value);
     }
-
   }
 
   public registerOnChange(fn: (value: string) => void): void {
@@ -98,7 +99,7 @@ export class PasswordBoxComponent implements ControlValueAccessor {
     this.type = type;
   }
 
-  public inputChanged(event: Event): void {
+  protected inputChanged(event: Event): void {
     const existingWordValue = this.strengthWord;
 
     this.getPasswordStrength((event.target as HTMLInputElement)?.value);
@@ -108,7 +109,7 @@ export class PasswordBoxComponent implements ControlValueAccessor {
     }
   }
 
-  public generatePassword(event: Event): void {
+  protected generatePassword(event: Event): void {
     event.preventDefault();
 
     const generated = password.randomString();
