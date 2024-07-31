@@ -17,7 +17,7 @@ After building your library with `ng build dw-ui`, go to the dist folder `cd dis
 
 ## Running unit tests
 
-Run `ng test dw-ui` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test dw-ui` to execute the unit tests via [Jest](https://jestjs.io/).
 
 ## Further help
 
