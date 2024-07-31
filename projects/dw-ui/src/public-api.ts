@@ -2,5 +2,4 @@
  * Public API Surface of dw-ui
  */
 
-//export * from './lib/dw-ui.service';
-//export * from './lib/dw-ui.component';
+export * from './lib/password-box/password-box.component';
