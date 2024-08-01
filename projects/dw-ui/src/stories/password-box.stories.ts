@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { faThumbsUp, faThumbsDown, faFaceSurprise } from '@fortawesome/free-regular-svg-icons';
+import { fn } from '@storybook/test';
 
 import { PasswordBoxComponent } from '../lib/password-box/password-box.component';
 
@@ -297,6 +298,11 @@ const meta: Meta<PasswordBoxComponent> = {
       }
     },
   },
+  args: {
+    passwordStrengthChanged: fn(),
+    passwordTypeChanged: fn(),
+    passwordValueChanged: fn(),
+  }
 };
 
 export default meta;
