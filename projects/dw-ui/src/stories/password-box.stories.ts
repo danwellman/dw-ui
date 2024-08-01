@@ -34,6 +34,7 @@ const meta: Meta<PasswordBoxComponent> = {
       },
       control: {
         type: 'text',
+        value: 'Generate strong password for me'
       }
     },
     iconHide: {
@@ -61,6 +62,7 @@ const meta: Meta<PasswordBoxComponent> = {
       },
       control: {
         type: 'text',
+        value: 'Hide password',
       }
     },
     iconShow: {
@@ -88,6 +90,7 @@ const meta: Meta<PasswordBoxComponent> = {
       },
       control: {
         type: 'text',
+        value: 'Show password',
       }
     },
     enableChoose: {
@@ -245,6 +248,7 @@ const meta: Meta<PasswordBoxComponent> = {
       },
       control: {
         type: 'text',
+        value: 'Password strength meter',
       }
     },
     switchToAndFocusInputAfterGenerate: {
@@ -284,6 +288,7 @@ const meta: Meta<PasswordBoxComponent> = {
       },
       control: {
         type: 'text',
+        value: 'password',
       }
     },
     validate: {
@@ -303,7 +308,7 @@ const meta: Meta<PasswordBoxComponent> = {
         },
       },
       control: {
-        type: 'text',
+        disable: true,
       }
     },
   },
@@ -311,6 +316,120 @@ const meta: Meta<PasswordBoxComponent> = {
     passwordStrengthChanged: fn(),
     passwordTypeChanged: fn(),
     passwordValueChanged: fn(),
+  },
+  parameters: {
+    cssprops: {
+      iconHoverColor: {
+        category: 'icons',
+        value: 'initial',
+        description: 'The color of the icons',
+      },
+      iconHoverFocusOpacity: {
+        category: 'icons',
+        value: '.5',
+        description: 'The "hover style" of the icons',
+      },
+      iconHoverFocusOutline: {
+        category: 'icons',
+        value: 'none',
+        description: 'The focus outline style of the icons',
+      },
+      inputBorderColor: {
+        category: 'input',
+        value: '#000',
+        description: 'The color of the border for the input',
+      },
+      inputBorderRadius: {
+        category: 'input',
+        value: '.25rem',
+        description: 'The border-radius of the input',
+      },
+      inputBorderStyle: {
+        category: 'input',
+        value: 'solid',
+        description: 'The border-style of the input',
+      },
+      inputBorderWidth: {
+        category: 'input',
+        value: '2px',
+        description: 'The border-width of the input',
+      },
+      inputFontFamily: {
+        category: 'input',
+        value: 'Arial, Helvetica, sans-serif',
+        description: 'The font-family of the input',
+      },
+      inputFontSize: {
+        category: 'input',
+        value: '16px',
+        description: 'The font-size of the input',
+      },
+      inputMarginBottom: {
+        category: 'input',
+        value: '0',
+        description: 'The margin-bottom of the input',
+      },
+      inputPadding: {
+        category: 'input',
+        value: '.5rem',
+        description: 'The padding of the input',
+      },
+      labelColor: {
+        value: '#000',
+        category: 'label',
+        description: 'The font color of the label',
+      },
+      labelFontFamily: {
+        value: 'Arial, Helvetica, sans-serif',
+        category: 'label',
+        description: 'The font-family for the label',
+      },
+      labelFontSize: {
+        value: '16px',
+        category: 'label',
+        description: 'The font-size for the label',
+      },
+      labelMargin: {
+        value: '0 0 .25rem 0',
+        category: 'label',
+        description: 'The margin for the label',
+      },
+      strengthMeterBarHeight: {
+        value: '1rem',
+        category: 'strength meter',
+        description: 'The height of the blocks in the strength meter',
+      },
+      strengthMeterPadding: {
+        value: '.5rem 0 0',
+        category: 'strength meter',
+        description: 'The padding of the blocks in the strength meter',
+      },
+      strengthMeterInitial: {
+        value: '#ffffff',
+        category: 'strength meter',
+        description: 'The initial background-color of the blocks in the strength meter',
+      },
+      strengthMeterTooWeak: {
+        value: '#ff0000',
+        category: 'strength meter',
+        description: 'The background-color of the blocks in the strength meter when the password is too weak',
+      },
+      strengthMeterWeak: {
+        value: '#fdc673',
+        category: 'strength meter',
+        description: 'The background-color of the blocks in the strength meter when the password is too weak',
+      },
+      strengthMeterMedium: {
+        value: '#ffee00',
+        category: 'strength meter',
+        description: 'The initial background-color of the blocks in the strength meter when the password is medium',
+      },
+      strengthMeterStrong: {
+        value: '#15ff00',
+        category: 'strength meter',
+        description: 'The initial background-color of the blocks in the strength meter when the password is strong',
+      },
+    }
   }
 };
 
