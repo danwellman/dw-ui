@@ -11,6 +11,7 @@ export type PasswordBoxType = 'password' | 'text';
 export type StrengthChangedEvent = { strengthWord: string; strengthId: number };
 export type ValueChangedEvent = { value: string };
 export type TypeChangedEvent = { type: PasswordBoxType };
+export type RequiredStrength = 1 | 2 | 3 | 4;
 
 @Component({
   selector: 'dwui-password-box',
@@ -38,6 +39,7 @@ export type TypeChangedEvent = { type: PasswordBoxType };
 export class PasswordBoxComponent implements ControlValueAccessor {
   public id = input<string>(uuid());
   public label = input<string>('Password:');
+  public minStrength = input<RequiredStrength>(4);
   public enableShowHide = input<boolean>(true);
   public iconShow = input<IconDefinition>(faEye);
   public iconShowTitle = input<string>('Show password');
@@ -70,8 +72,8 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   constructor(private cdr: ChangeDetectorRef, private renderer: Renderer2) {}
 
   public validate({ value }: FormControl) {
-    const strength = passwordStrength(value).value.toLowerCase();
-    const isNotValid = strength !== 'strong';
+    const strength = passwordStrength(value).id;
+    const isNotValid = strength !== this.minStrength();
     return isNotValid && {
       invalid: true,
     }

@@ -162,6 +162,24 @@ const meta: Meta<PasswordBoxComponent> = {
         },
       },
     },
+    minStrength: {
+      description: 'The minium strength required for the password to be valid',
+      table: {
+        category: 'inputs',
+        type: {
+          summary: 'RequiredStrength (1 | 2 | 3 | 4)',
+        },
+        defaultValue: {
+          summary: '4',
+        },
+      },
+      control: {
+        type: 'number',
+        value: 4,
+        max: 4,
+        min: 1,
+      },
+    },
     onChange: {
       table: {
         disable: true,
