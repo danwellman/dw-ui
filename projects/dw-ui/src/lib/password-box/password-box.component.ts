@@ -101,9 +101,11 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   }
 
   public switchType(type: PasswordBoxType): void {
-    this.type = type;
-    this.passwordTypeChanged.emit({ type });
-    this.cdr.markForCheck();
+    if (this.type !== type) {
+      this.type = type;
+      this.passwordTypeChanged.emit({ type });
+      this.cdr.markForCheck();
+    }
   }
 
   protected inputChanged(event: Event): void {
