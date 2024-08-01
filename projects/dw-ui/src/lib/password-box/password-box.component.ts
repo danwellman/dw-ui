@@ -9,6 +9,8 @@ import * as password from 'secure-random-password';
 
 export type PasswordBoxType = 'password' | 'text';
 export type StrengthChangedEvent = { strengthWord: string; strengthId: number };
+export type ValueChangedEvent = { value: string };
+export type TypeChangedEvent = { type: PasswordBoxType };
 
 @Component({
   selector: 'dwui-password-box',
@@ -49,6 +51,8 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   public switchToAndFocusInputAfterGenerate = input<boolean>(true);
 
   public passwordStrengthChanged = output<StrengthChangedEvent>();
+  public passwordValueChanged = output<ValueChangedEvent>();
+  public passwordTypeChanged = output<TypeChangedEvent>();
 
   public value = '';
   public type: PasswordBoxType = 'password';
@@ -75,6 +79,7 @@ export class PasswordBoxComponent implements ControlValueAccessor {
 
   public writeValue(value: string): void {
     this.value = value;
+    this.passwordValueChanged.emit({ value });
     this.cdr.markForCheck();
     if (this.onChange) {
       this.onChange(value);
@@ -97,6 +102,8 @@ export class PasswordBoxComponent implements ControlValueAccessor {
 
   public switchType(type: PasswordBoxType): void {
     this.type = type;
+    this.passwordTypeChanged.emit({ type });
+    this.cdr.markForCheck();
   }
 
   protected inputChanged(event: Event): void {
@@ -112,9 +119,15 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   protected generatePassword(event: Event): void {
     event.preventDefault();
 
+    const existingWordValue = this.strengthWord;
     const generated = password.randomString();
+
     this.writeValue(generated);
     this.getPasswordStrength(generated);
+
+    if (this.strengthWord !== existingWordValue) {
+      this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });
+    }
 
     if (this.switchToAndFocusInputAfterGenerate()) {
       const chooseIconEl = this.getChooseIcon();
