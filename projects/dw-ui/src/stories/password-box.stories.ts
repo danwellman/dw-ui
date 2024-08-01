@@ -177,6 +177,24 @@ const meta: Meta<PasswordBoxComponent> = {
         },
       },
     },
+    passwordTypeChanged: {
+      description: 'An event emitted when the type attribute of the input changes',
+      table: {
+        category: 'outputs',
+        type: {
+          summary: 'TypeChangedEvent',
+        },
+      },
+    },
+    passwordValueChanged: {
+      description: 'An event emitted when the value of the input changes',
+      table: {
+        category: 'outputs',
+        type: {
+          summary: 'ValueChangedEvent',
+        },
+      },
+    },
     registerOnChange: {
       description: 'Register an onChange function',
       table: {
