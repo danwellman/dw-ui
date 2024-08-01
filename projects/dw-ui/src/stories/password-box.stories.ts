@@ -177,6 +177,9 @@ const meta: Meta<PasswordBoxComponent> = {
           summary: 'StrengthChangedEvent',
         },
       },
+      control: {
+        disable: true
+      }
     },
     passwordTypeChanged: {
       description: 'An event emitted when the type attribute of the input changes',
@@ -186,6 +189,9 @@ const meta: Meta<PasswordBoxComponent> = {
           summary: 'TypeChangedEvent',
         },
       },
+      control: {
+        disable: true
+      }
     },
     passwordValueChanged: {
       description: 'An event emitted when the value of the input changes',
@@ -195,6 +201,9 @@ const meta: Meta<PasswordBoxComponent> = {
           summary: 'ValueChangedEvent',
         },
       },
+      control: {
+        disable: true
+      }
     },
     registerOnChange: {
       description: 'Register an onChange function',
