@@ -114,8 +114,14 @@ export class PasswordBoxComponent implements ControlValueAccessor {
 
   protected inputChanged(event: Event): void {
     const existingWordValue = this.strengthWord;
+    const inputVal = (event.target as HTMLInputElement)?.value;
 
-    this.getPasswordStrength((event.target as HTMLInputElement)?.value);
+    this.getPasswordStrength(inputVal);
+
+    if (!inputVal) {
+      this.strengthWord = '';
+      this.strengthValue = 0;
+    }
 
     if (this.strengthWord !== existingWordValue) {
       this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });
