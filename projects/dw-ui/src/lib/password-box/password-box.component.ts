@@ -11,7 +11,8 @@ export type PasswordBoxType = 'password' | 'text';
 export type StrengthChangedEvent = { strengthWord: string; strengthId: number };
 export type ValueChangedEvent = { value: string };
 export type TypeChangedEvent = { type: PasswordBoxType };
-export type RequiredStrength = 1 | 2 | 3 | 4;
+export type RequiredStrength = 1 | 2 | 3;
+export type StrengthMeterMode = 'multi' | 'duotone';
 
 @Component({
   selector: 'dwui-password-box',
@@ -39,7 +40,7 @@ export type RequiredStrength = 1 | 2 | 3 | 4;
 export class PasswordBoxComponent implements ControlValueAccessor {
   public id = input<string>(uuid());
   public label = input<string>('Password:');
-  public minStrength = input<RequiredStrength>(4);
+  public minStrength = input<RequiredStrength>(3);
   public enableShowHide = input<boolean>(true);
   public iconShow = input<IconDefinition>(faEye);
   public iconShowTitle = input<string>('Show password');
@@ -47,6 +48,7 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   public iconHideTitle = input<string>('Hide password');
   public enableStrengthMeter = input<boolean>(true);
   public strengthMeterAriaLabel = input<string>('Password strength meter');
+  public strengthMeterMode = input<StrengthMeterMode>('multi');
   public enableChoose = input<boolean>(true);
   public iconChoose = input<IconDefinition>(faPenToSquare);
   public iconChooseTitle = input<string>('Generate strong password for me');
@@ -161,7 +163,21 @@ export class PasswordBoxComponent implements ControlValueAccessor {
   }
 
   private getPasswordStrength(password: string): void {
-    this.strengthWord = passwordStrength(password).value.toLowerCase().replace(' ', '');
-    this.strengthValue = passwordStrength(password).id + 1;
+    const strength = passwordStrength(password);
+    const strengthWord = strength.value.toLowerCase().replace(' ', '');
+    this.strengthValue = strength.id;
+    if (this.strengthMeterMode() === 'multi') {
+      if (strengthWord === 'tooweak') {
+        this.strengthWord = 'weak';
+      } else {
+        this.strengthWord = strengthWord;
+      }
+    } else {
+      if (this.strengthValue < this.minStrength()) {
+        this.strengthWord = 'tooweak';
+      } else {
+        this.strengthWord = 'strong';
+      }
+    }
   }
 }

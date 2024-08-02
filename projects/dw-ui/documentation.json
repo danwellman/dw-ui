@@ -9,7 +9,7 @@
     "components": [
         {
             "name": "PasswordBoxComponent",
-            "id": "component-PasswordBoxComponent-c4799c57256c650989d4aa803d6249c8293d48d8614312c065c40db0c97cf6216e5777ef9251ed1a5f865cdfa3026570e04ec5c4befe666663288e18af2a4cbe",
+            "id": "component-PasswordBoxComponent-dc086e559affa6ac4f117a530fc885e0c9c7e2f5c12d080f27701b75ed68b757d37c880c85e6fd0979a1f6177878dc2d25c63bfb441cf049d01950a3ce977d6b",
             "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
             "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
@@ -44,7 +44,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 48,
+                    "line": 52,
                     "modifierKind": [
                         125
                     ],
@@ -58,7 +58,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 41,
+                    "line": 44,
                     "modifierKind": [
                         125
                     ],
@@ -72,7 +72,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 46,
+                    "line": 49,
                     "modifierKind": [
                         125
                     ],
@@ -86,7 +86,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 49,
+                    "line": 53,
                     "modifierKind": [
                         125
                     ],
@@ -100,7 +100,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 44,
+                    "line": 47,
                     "modifierKind": [
                         125
                     ],
@@ -114,7 +114,21 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 42,
+                    "line": 45,
+                    "modifierKind": [
+                        125
+                    ],
+                    "required": false
+                },
+                {
+                    "name": "minStrength",
+                    "defaultValue": "3",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 43,
                     "modifierKind": [
                         125
                     ],
@@ -128,7 +142,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 51,
+                    "line": 55,
                     "modifierKind": [
                         125
                     ],
@@ -143,7 +157,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 53,
+                    "line": 57,
                     "modifierKind": [
                         125
                     ],
@@ -156,7 +170,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 55,
+                    "line": 59,
                     "modifierKind": [
                         125
                     ],
@@ -169,7 +183,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 54,
+                    "line": 58,
                     "modifierKind": [
                         125
                     ],
@@ -184,7 +198,7 @@
                     "type": "HTMLElement | null",
                     "optional": false,
                     "description": "",
-                    "line": 67,
+                    "line": 71,
                     "modifierKind": [
                         123
                     ]
@@ -197,7 +211,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 48,
+                    "line": 52,
                     "modifierKind": [
                         125
                     ],
@@ -211,7 +225,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 41,
+                    "line": 44,
                     "modifierKind": [
                         125
                     ],
@@ -225,7 +239,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 46,
+                    "line": 49,
                     "modifierKind": [
                         125
                     ],
@@ -239,7 +253,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 49,
+                    "line": 53,
                     "modifierKind": [
                         125
                     ],
@@ -253,7 +267,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 50,
+                    "line": 54,
                     "modifierKind": [
                         125
                     ]
@@ -266,7 +280,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 44,
+                    "line": 47,
                     "modifierKind": [
                         125
                     ],
@@ -280,7 +294,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 45,
+                    "line": 48,
                     "modifierKind": [
                         125
                     ]
@@ -293,7 +307,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 42,
+                    "line": 45,
                     "modifierKind": [
                         125
                     ],
@@ -307,7 +321,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 43,
+                    "line": 46,
                     "modifierKind": [
                         125
                     ]
@@ -320,7 +334,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 39,
+                    "line": 41,
                     "modifierKind": [
                         125
                     ]
@@ -332,7 +346,7 @@
                     "type": "HTMLElement | null",
                     "optional": false,
                     "description": "",
-                    "line": 68,
+                    "line": 72,
                     "modifierKind": [
                         123
                     ]
@@ -344,7 +358,7 @@
                     "type": "boolean",
                     "optional": false,
                     "description": "",
-                    "line": 63,
+                    "line": 67,
                     "modifierKind": [
                         124
                     ]
@@ -357,10 +371,24 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 40,
+                    "line": 42,
                     "modifierKind": [
                         125
                     ]
+                },
+                {
+                    "name": "minStrength",
+                    "defaultValue": "3",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 43,
+                    "modifierKind": [
+                        125
+                    ],
+                    "required": false
                 },
                 {
                     "name": "onChange",
@@ -370,7 +398,7 @@
                     "type": "function",
                     "optional": false,
                     "description": "",
-                    "line": 60,
+                    "line": 64,
                     "modifierKind": [
                         125
                     ]
@@ -383,7 +411,7 @@
                     "type": "function",
                     "optional": false,
                     "description": "",
-                    "line": 61,
+                    "line": 65,
                     "modifierKind": [
                         125
                     ]
@@ -395,7 +423,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 53,
+                    "line": 57,
                     "modifierKind": [
                         125
                     ],
@@ -408,7 +436,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 55,
+                    "line": 59,
                     "modifierKind": [
                         125
                     ],
@@ -421,7 +449,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 54,
+                    "line": 58,
                     "modifierKind": [
                         125
                     ],
@@ -435,7 +463,20 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 47,
+                    "line": 50,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "strengthMeterMode",
+                    "defaultValue": "input<StrengthMeterMode>('multi')",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 51,
                     "modifierKind": [
                         125
                     ]
@@ -448,7 +489,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 65,
+                    "line": 69,
                     "modifierKind": [
                         124
                     ]
@@ -460,7 +501,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 64,
+                    "line": 68,
                     "modifierKind": [
                         124
                     ]
@@ -473,7 +514,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 51,
+                    "line": 55,
                     "modifierKind": [
                         125
                     ],
@@ -487,7 +528,7 @@
                     "type": "PasswordBoxType",
                     "optional": false,
                     "description": "",
-                    "line": 58,
+                    "line": 62,
                     "modifierKind": [
                         125
                     ]
@@ -500,7 +541,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 57,
+                    "line": 61,
                     "modifierKind": [
                         125
                     ]
@@ -520,7 +561,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 121,
+                    "line": 125,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -544,7 +585,7 @@
                     "optional": false,
                     "returnType": "HTMLElement | null",
                     "typeParameters": [],
-                    "line": 146,
+                    "line": 150,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -557,7 +598,7 @@
                     "optional": false,
                     "returnType": "HTMLElement | null",
                     "typeParameters": [],
-                    "line": 153,
+                    "line": 157,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -577,7 +618,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 161,
+                    "line": 165,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -608,7 +649,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 111,
+                    "line": 115,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -647,7 +688,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 89,
+                    "line": 93,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -687,7 +728,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 93,
+                    "line": 97,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -719,7 +760,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 97,
+                    "line": 101,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -750,7 +791,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 103,
+                    "line": 107,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -780,7 +821,7 @@
                     "optional": false,
                     "returnType": "{ invalid: boolean; }",
                     "typeParameters": [],
-                    "line": 72,
+                    "line": 76,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -810,7 +851,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 80,
+                    "line": 84,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -851,7 +892,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, input, output, forwardRef, ChangeDetectionStrategy, ChangeDetectorRef, Renderer2 } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { ControlValueAccessor, FormsModule, NG_VALUE_ACCESSOR, NG_VALIDATORS, FormControl } from '@angular/forms';\r\nimport { FontAwesomeModule } from '@fortawesome/angular-fontawesome';\r\nimport { faEye, faEyeSlash, IconDefinition, faPenToSquare } from '@fortawesome/free-regular-svg-icons';\r\nimport { v4 as uuid } from 'uuid';\r\nimport { passwordStrength } from 'check-password-strength';\r\nimport * as password from 'secure-random-password';\r\n\r\nexport type PasswordBoxType = 'password' | 'text';\r\nexport type StrengthChangedEvent = { strengthWord: string; strengthId: number };\r\nexport type ValueChangedEvent = { value: string };\r\nexport type TypeChangedEvent = { type: PasswordBoxType };\r\n\r\n@Component({\r\n  selector: 'dwui-password-box',\r\n  standalone: true,\r\n  imports: [CommonModule, FormsModule, FontAwesomeModule],\r\n  templateUrl: './password-box.component.html',\r\n  styleUrl: './password-box.component.scss',\r\n  providers: [\r\n    {\r\n      provide: NG_VALUE_ACCESSOR,\r\n      multi: true,\r\n      useExisting: forwardRef(() => PasswordBoxComponent),\r\n    },\r\n    {\r\n      provide: NG_VALIDATORS,\r\n      multi: true,\r\n      useExisting: forwardRef(() => PasswordBoxComponent),\r\n    }\r\n  ],\r\n  host: {\r\n    '(change)': 'onChange($event.target.value)',\r\n  },\r\n  changeDetection: ChangeDetectionStrategy.OnPush,\r\n})\r\nexport class PasswordBoxComponent implements ControlValueAccessor {\r\n  public id = input<string>(uuid());\r\n  public label = input<string>('Password:');\r\n  public enableShowHide = input<boolean>(true);\r\n  public iconShow = input<IconDefinition>(faEye);\r\n  public iconShowTitle = input<string>('Show password');\r\n  public iconHide = input<IconDefinition>(faEyeSlash);\r\n  public iconHideTitle = input<string>('Hide password');\r\n  public enableStrengthMeter = input<boolean>(true);\r\n  public strengthMeterAriaLabel = input<string>('Password strength meter');\r\n  public enableChoose = input<boolean>(true);\r\n  public iconChoose = input<IconDefinition>(faPenToSquare);\r\n  public iconChooseTitle = input<string>('Generate strong password for me');\r\n  public switchToAndFocusInputAfterGenerate = input<boolean>(true);\r\n\r\n  public passwordStrengthChanged = output<StrengthChangedEvent>();\r\n  public passwordValueChanged = output<ValueChangedEvent>();\r\n  public passwordTypeChanged = output<TypeChangedEvent>();\r\n\r\n  public value = '';\r\n  public type: PasswordBoxType = 'password';\r\n\r\n  public onChange: (value: string) => void = (value: string) => undefined;\r\n  public onTouched: () => void = () => undefined;\r\n\r\n  protected isDisabled: boolean;\r\n  protected strengthWord: string;\r\n  protected strengthValue = 0;\r\n\r\n  private chooseIconElement: HTMLElement | null;\r\n  private inputElement: HTMLElement | null;\r\n\r\n  constructor(private cdr: ChangeDetectorRef, private renderer: Renderer2) {}\r\n\r\n  public validate({ value }: FormControl) {\r\n    const strength = passwordStrength(value).value.toLowerCase();\r\n    const isNotValid = strength !== 'strong';\r\n    return isNotValid && {\r\n      invalid: true,\r\n    }\r\n  }\r\n\r\n  public writeValue(value: string): void {\r\n    this.value = value;\r\n    this.passwordValueChanged.emit({ value });\r\n    this.cdr.markForCheck();\r\n    if (this.onChange) {\r\n      this.onChange(value);\r\n    }\r\n  }\r\n\r\n  public registerOnChange(fn: (value: string) => void): void {\r\n    this.onChange = fn;\r\n  }\r\n\r\n  public registerOnTouched(fn: () => void): void {\r\n    this.onTouched = fn;\r\n  }\r\n\r\n  public setDisabledState(isDisabled: boolean): void {\r\n    this.isDisabled = isDisabled;\r\n    const input = this.getInput();\r\n    this.renderer.setProperty(input, 'disabled', isDisabled === true ? isDisabled : null);\r\n  }\r\n\r\n  public switchType(type: PasswordBoxType): void {\r\n    if (this.type !== type) {\r\n      this.type = type;\r\n      this.passwordTypeChanged.emit({ type });\r\n      this.cdr.markForCheck();\r\n    }\r\n  }\r\n\r\n  protected inputChanged(event: Event): void {\r\n    const existingWordValue = this.strengthWord;\r\n\r\n    this.getPasswordStrength((event.target as HTMLInputElement)?.value);\r\n\r\n    if (this.strengthWord !== existingWordValue) {\r\n      this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });\r\n    }\r\n  }\r\n\r\n  protected generatePassword(event: Event): void {\r\n    event.preventDefault();\r\n\r\n    const existingWordValue = this.strengthWord;\r\n    const generated = password.randomString();\r\n\r\n    this.writeValue(generated);\r\n    this.getPasswordStrength(generated);\r\n\r\n    if (this.strengthWord !== existingWordValue) {\r\n      this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });\r\n    }\r\n\r\n    if (this.switchToAndFocusInputAfterGenerate()) {\r\n      const chooseIconEl = this.getChooseIcon();\r\n      const inputEl = this.getInput();\r\n\r\n      if (chooseIconEl && inputEl) {\r\n        this.switchType('text');\r\n        chooseIconEl.blur();\r\n        inputEl.focus();\r\n      }\r\n    }\r\n  }\r\n\r\n  private getChooseIcon(): HTMLElement | null {\r\n    if (!this.chooseIconElement) {\r\n      this.chooseIconElement = document.getElementById('choose');\r\n    }\r\n    return this.chooseIconElement;\r\n  }\r\n\r\n  private getInput(): HTMLElement | null {\r\n    if (!this.inputElement) {\r\n      this.inputElement = document.querySelector('dwui-password-box input');\r\n    }\r\n\r\n    return this.inputElement;\r\n  }\r\n\r\n  private getPasswordStrength(password: string): void {\r\n    this.strengthWord = passwordStrength(password).value.toLowerCase().replace(' ', '');\r\n    this.strengthValue = passwordStrength(password).id + 1;\r\n  }\r\n}\r\n",
+            "sourceCode": "import { Component, input, output, forwardRef, ChangeDetectionStrategy, ChangeDetectorRef, Renderer2 } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { ControlValueAccessor, FormsModule, NG_VALUE_ACCESSOR, NG_VALIDATORS, FormControl } from '@angular/forms';\r\nimport { FontAwesomeModule } from '@fortawesome/angular-fontawesome';\r\nimport { faEye, faEyeSlash, IconDefinition, faPenToSquare } from '@fortawesome/free-regular-svg-icons';\r\nimport { v4 as uuid } from 'uuid';\r\nimport { passwordStrength } from 'check-password-strength';\r\nimport * as password from 'secure-random-password';\r\n\r\nexport type PasswordBoxType = 'password' | 'text';\r\nexport type StrengthChangedEvent = { strengthWord: string; strengthId: number };\r\nexport type ValueChangedEvent = { value: string };\r\nexport type TypeChangedEvent = { type: PasswordBoxType };\r\nexport type RequiredStrength = 1 | 2 | 3;\r\nexport type StrengthMeterMode = 'multi' | 'duotone';\r\n\r\n@Component({\r\n  selector: 'dwui-password-box',\r\n  standalone: true,\r\n  imports: [CommonModule, FormsModule, FontAwesomeModule],\r\n  templateUrl: './password-box.component.html',\r\n  styleUrl: './password-box.component.scss',\r\n  providers: [\r\n    {\r\n      provide: NG_VALUE_ACCESSOR,\r\n      multi: true,\r\n      useExisting: forwardRef(() => PasswordBoxComponent),\r\n    },\r\n    {\r\n      provide: NG_VALIDATORS,\r\n      multi: true,\r\n      useExisting: forwardRef(() => PasswordBoxComponent),\r\n    }\r\n  ],\r\n  host: {\r\n    '(change)': 'onChange($event.target.value)',\r\n  },\r\n  changeDetection: ChangeDetectionStrategy.OnPush,\r\n})\r\nexport class PasswordBoxComponent implements ControlValueAccessor {\r\n  public id = input<string>(uuid());\r\n  public label = input<string>('Password:');\r\n  public minStrength = input<RequiredStrength>(3);\r\n  public enableShowHide = input<boolean>(true);\r\n  public iconShow = input<IconDefinition>(faEye);\r\n  public iconShowTitle = input<string>('Show password');\r\n  public iconHide = input<IconDefinition>(faEyeSlash);\r\n  public iconHideTitle = input<string>('Hide password');\r\n  public enableStrengthMeter = input<boolean>(true);\r\n  public strengthMeterAriaLabel = input<string>('Password strength meter');\r\n  public strengthMeterMode = input<StrengthMeterMode>('multi');\r\n  public enableChoose = input<boolean>(true);\r\n  public iconChoose = input<IconDefinition>(faPenToSquare);\r\n  public iconChooseTitle = input<string>('Generate strong password for me');\r\n  public switchToAndFocusInputAfterGenerate = input<boolean>(true);\r\n\r\n  public passwordStrengthChanged = output<StrengthChangedEvent>();\r\n  public passwordValueChanged = output<ValueChangedEvent>();\r\n  public passwordTypeChanged = output<TypeChangedEvent>();\r\n\r\n  public value = '';\r\n  public type: PasswordBoxType = 'password';\r\n\r\n  public onChange: (value: string) => void = (value: string) => undefined;\r\n  public onTouched: () => void = () => undefined;\r\n\r\n  protected isDisabled: boolean;\r\n  protected strengthWord: string;\r\n  protected strengthValue = 0;\r\n\r\n  private chooseIconElement: HTMLElement | null;\r\n  private inputElement: HTMLElement | null;\r\n\r\n  constructor(private cdr: ChangeDetectorRef, private renderer: Renderer2) {}\r\n\r\n  public validate({ value }: FormControl) {\r\n    const strength = passwordStrength(value).id;\r\n    const isNotValid = strength !== this.minStrength();\r\n    return isNotValid && {\r\n      invalid: true,\r\n    }\r\n  }\r\n\r\n  public writeValue(value: string): void {\r\n    this.value = value;\r\n    this.passwordValueChanged.emit({ value });\r\n    this.cdr.markForCheck();\r\n    if (this.onChange) {\r\n      this.onChange(value);\r\n    }\r\n  }\r\n\r\n  public registerOnChange(fn: (value: string) => void): void {\r\n    this.onChange = fn;\r\n  }\r\n\r\n  public registerOnTouched(fn: () => void): void {\r\n    this.onTouched = fn;\r\n  }\r\n\r\n  public setDisabledState(isDisabled: boolean): void {\r\n    this.isDisabled = isDisabled;\r\n    const input = this.getInput();\r\n    this.renderer.setProperty(input, 'disabled', isDisabled === true ? isDisabled : null);\r\n  }\r\n\r\n  public switchType(type: PasswordBoxType): void {\r\n    if (this.type !== type) {\r\n      this.type = type;\r\n      this.passwordTypeChanged.emit({ type });\r\n      this.cdr.markForCheck();\r\n    }\r\n  }\r\n\r\n  protected inputChanged(event: Event): void {\r\n    const existingWordValue = this.strengthWord;\r\n\r\n    this.getPasswordStrength((event.target as HTMLInputElement)?.value);\r\n\r\n    if (this.strengthWord !== existingWordValue) {\r\n      this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });\r\n    }\r\n  }\r\n\r\n  protected generatePassword(event: Event): void {\r\n    event.preventDefault();\r\n\r\n    const existingWordValue = this.strengthWord;\r\n    const generated = password.randomString();\r\n\r\n    this.writeValue(generated);\r\n    this.getPasswordStrength(generated);\r\n\r\n    if (this.strengthWord !== existingWordValue) {\r\n      this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });\r\n    }\r\n\r\n    if (this.switchToAndFocusInputAfterGenerate()) {\r\n      const chooseIconEl = this.getChooseIcon();\r\n      const inputEl = this.getInput();\r\n\r\n      if (chooseIconEl && inputEl) {\r\n        this.switchType('text');\r\n        chooseIconEl.blur();\r\n        inputEl.focus();\r\n      }\r\n    }\r\n  }\r\n\r\n  private getChooseIcon(): HTMLElement | null {\r\n    if (!this.chooseIconElement) {\r\n      this.chooseIconElement = document.getElementById('choose');\r\n    }\r\n    return this.chooseIconElement;\r\n  }\r\n\r\n  private getInput(): HTMLElement | null {\r\n    if (!this.inputElement) {\r\n      this.inputElement = document.querySelector('dwui-password-box input');\r\n    }\r\n\r\n    return this.inputElement;\r\n  }\r\n\r\n  private getPasswordStrength(password: string): void {\r\n    const strength = passwordStrength(password);\r\n    const strengthWord = strength.value.toLowerCase().replace(' ', '');\r\n    this.strengthValue = strength.id;\r\n    if (this.strengthMeterMode() === 'multi') {\r\n      if (strengthWord === 'tooweak') {\r\n        this.strengthWord = 'weak';\r\n      } else {\r\n        this.strengthWord = strengthWord;\r\n      }\r\n    } else {\r\n      if (this.strengthValue < this.minStrength()) {\r\n        this.strengthWord = 'tooweak';\r\n      } else {\r\n        this.strengthWord = 'strong';\r\n      }\r\n    }\r\n  }\r\n}\r\n",
             "styleUrl": "./password-box.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
@@ -875,7 +916,7 @@
                         "deprecationMessage": ""
                     }
                 ],
-                "line": 68,
+                "line": 72,
                 "jsdoctags": [
                     {
                         "name": "cdr",
@@ -901,7 +942,7 @@
             "implements": [
                 "ControlValueAccessor"
             ],
-            "templateData": "<div class=\"dwui-outer\" [ngClass]=\"{ 'disabled': isDisabled }\">\r\n  @if (label()) {\r\n    <label class=\"dwui-label\" [for]=\"id()\">{{label()}}</label>\r\n  }\r\n  <div\r\n    class=\"dwui-input-wrap\"\r\n    [ngClass]=\"{\r\n      'with-icon': enableShowHide() || enableChoose(),\r\n      'both-icons': enableShowHide() && enableChoose(),\r\n      'icon-show': enableShowHide(),\r\n      'icon-choose': enableChoose(),\r\n    }\"\r\n  >\r\n    <input [id]=\"id()\" [type]=\"type\" [value]=\"value\" (input)=\"inputChanged($event)\" (blur)=\"onTouched()\" />\r\n    @if (enableShowHide() || enableChoose()) {\r\n      <div class=\"dwui-icon-wrap\">\r\n        @if (enableShowHide()) {\r\n          @if (type === 'password') {\r\n            <fa-icon\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconShowTitle()\"\r\n              [icon]=\"iconShow()\"\r\n              (click)=\"switchType('text')\"\r\n              (keyup.space)=\"switchType('text')\"\r\n              (keyup.enter)=\"switchType('text')\"\r\n            ></fa-icon>\r\n          }\r\n          @else {\r\n            <fa-icon\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconHideTitle()\"\r\n              [icon]=\"iconHide()\"\r\n              (click)=\"switchType('password')\"\r\n              (keyup.space)=\"switchType('password')\"\r\n              (keyup.enter)=\"switchType('password')\"\r\n            ></fa-icon>\r\n          }\r\n        }\r\n        @if (enableChoose()) {\r\n          <fa-icon\r\n              id=\"choose\"\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconChooseTitle()\"\r\n              [icon]=\"iconChoose()\"\r\n              (click)=\"generatePassword($event)\"\r\n              (keyup.space)=\"generatePassword($event)\"\r\n              (keyup.enter)=\"generatePassword($event)\"\r\n            ></fa-icon>\r\n        }\r\n      </div>\r\n    }\r\n  </div>\r\n  @if (enableStrengthMeter()) {\r\n    <div\r\n      role=\"meter\"\r\n      aria-valuemin=\"0\"\r\n      aria-valuemax=\"4\"\r\n      attr.aria-label=\"{{ strengthMeterAriaLabel() }}\"\r\n      attr.aria-valuenow=\"{{ strengthValue }}\"\r\n      class=\"dwui-password-strength-wrap\"\r\n      [ngClass]=\"strengthWord || ''\"\r\n    >\r\n      <div aria-hidden=\"true\"></div>\r\n      <div aria-hidden=\"true\"></div>\r\n      <div aria-hidden=\"true\"></div>\r\n      <div aria-hidden=\"true\"></div>\r\n    </div>\r\n  }\r\n</div>\r\n"
+            "templateData": "<div class=\"dwui-outer\" [ngClass]=\"{ 'disabled': isDisabled }\">\r\n  @if (label()) {\r\n    <label class=\"dwui-label\" [for]=\"id()\">{{label()}}</label>\r\n  }\r\n  <div\r\n    class=\"dwui-input-wrap\"\r\n    [ngClass]=\"{\r\n      'with-icon': enableShowHide() || enableChoose(),\r\n      'both-icons': enableShowHide() && enableChoose(),\r\n      'icon-show': enableShowHide(),\r\n      'icon-choose': enableChoose(),\r\n    }\"\r\n  >\r\n    <input [id]=\"id()\" [type]=\"type\" [value]=\"value\" (input)=\"inputChanged($event)\" (blur)=\"onTouched()\" />\r\n    @if (enableShowHide() || enableChoose()) {\r\n      <div class=\"dwui-icon-wrap\">\r\n        @if (enableShowHide()) {\r\n          @if (type === 'password') {\r\n            <fa-icon\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconShowTitle()\"\r\n              [icon]=\"iconShow()\"\r\n              (click)=\"switchType('text')\"\r\n              (keyup.space)=\"switchType('text')\"\r\n              (keyup.enter)=\"switchType('text')\"\r\n            ></fa-icon>\r\n          }\r\n          @else {\r\n            <fa-icon\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconHideTitle()\"\r\n              [icon]=\"iconHide()\"\r\n              (click)=\"switchType('password')\"\r\n              (keyup.space)=\"switchType('password')\"\r\n              (keyup.enter)=\"switchType('password')\"\r\n            ></fa-icon>\r\n          }\r\n        }\r\n        @if (enableChoose()) {\r\n          <fa-icon\r\n              id=\"choose\"\r\n              [tabIndex]=\"0\"\r\n              [a11yRole]=\"'button'\"\r\n              [title]=\"iconChooseTitle()\"\r\n              [icon]=\"iconChoose()\"\r\n              (click)=\"generatePassword($event)\"\r\n              (keyup.space)=\"generatePassword($event)\"\r\n              (keyup.enter)=\"generatePassword($event)\"\r\n            ></fa-icon>\r\n        }\r\n      </div>\r\n    }\r\n  </div>\r\n  @if (enableStrengthMeter()) {\r\n    <div\r\n      role=\"meter\"\r\n      aria-valuemin=\"0\"\r\n      aria-valuemax=\"3\"\r\n      attr.aria-label=\"{{ strengthMeterAriaLabel() }}\"\r\n      attr.aria-valuenow=\"{{ strengthValue }}\"\r\n      class=\"dwui-password-strength-wrap {{ strengthMeterMode() }}\"\r\n      [ngClass]=\"strengthWord || ''\"\r\n    >\r\n      @if (strengthMeterMode() === 'duotone') {\r\n        <div\r\n          class=\"strength-duo-wrap\"\r\n          [ngClass]=\"(strengthValue === 0 || strengthValue === 1) ? 'one' : (strengthValue === 2) ? 'two' : (strengthValue === 3) ? 'three' : ''\"\r\n        >\r\n          <div aria-hidden=\"true\"></div>\r\n          <div aria-hidden=\"true\"></div>\r\n          <div aria-hidden=\"true\"></div>\r\n        </div>\r\n      }\r\n      @else {\r\n        <div aria-hidden=\"true\"></div>\r\n        <div aria-hidden=\"true\"></div>\r\n        <div aria-hidden=\"true\"></div>\r\n      }\r\n    </div>\r\n  }\r\n</div>\r\n"
         }
     ],
     "modules": [],
@@ -945,7 +986,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<PasswordBoxComponent>",
-                "defaultValue": "{\r\n  title: 'Components/password-box',\r\n  component: PasswordBoxComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    iconChoose: {\r\n      description: 'The FontAwesome icon to use for the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faPenToSquare'\r\n        },\r\n      },\r\n    },\r\n    iconChooseTitle: {\r\n      description: 'The title for the \"choose\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Generate strong password for me',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    iconHide: {\r\n      description: 'The FontAwesome icon to use for the \"hide password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEyeSlash'\r\n        }\r\n      },\r\n    },\r\n    iconHideTitle: {\r\n      description: 'The title for the \"hide password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Hide password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    iconShow: {\r\n      description: 'The FontAwesome icon to use for the \"show password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEye'\r\n        }\r\n      },\r\n    },\r\n    iconShowTitle: {\r\n      description: 'The title for the \"show password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Show password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    enableChoose: {\r\n      description: 'Whether to enable the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableShowHide: {\r\n      description: 'Whether to enable the \"show/hide password\" buttons',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableStrengthMeter: {\r\n      description: 'Whether to enable the strength meter below the input',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    id: {\r\n      description: 'The id for the input element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'an auto-generated UUID',\r\n        },\r\n      },\r\n    },\r\n    label: {\r\n      description: 'The text content of the label element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password',\r\n        },\r\n      },\r\n    },\r\n    onChange: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    onTouched: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    passwordStrengthChanged: {\r\n      description: 'An event emitted when the strength of the password changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'StrengthChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordTypeChanged: {\r\n      description: 'An event emitted when the type attribute of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'TypeChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordValueChanged: {\r\n      description: 'An event emitted when the value of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'ValueChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    registerOnChange: {\r\n      description: 'Register an onChange function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '(value: string) => void'\r\n        },\r\n      }\r\n    },\r\n    registerOnTouched: {\r\n      description: 'Register an onTouched function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '() => void'\r\n        },\r\n      }\r\n    },\r\n    setDisabledState: {\r\n      description: 'Set isDisabled to passed value',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'true | false'\r\n        },\r\n      }\r\n    },\r\n    strengthMeterAriaLabel: {\r\n      description: 'The aria-label for the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password strength meter',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    switchToAndFocusInputAfterGenerate: {\r\n      description: 'Whether to enable behavior where the password is displayed and input is focused after generating a password',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    switchType: {\r\n      description: 'Change the input type attribute',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'password | text'\r\n        }\r\n      },\r\n    },\r\n    type: {\r\n      description: 'The value of the type attribute on the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'password | text',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    validate: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    value: {\r\n      description: 'The value of the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n  },\r\n  args: {\r\n    passwordStrengthChanged: fn(),\r\n    passwordTypeChanged: fn(),\r\n    passwordValueChanged: fn(),\r\n  }\r\n}"
+                "defaultValue": "{\r\n  title: 'Components/password-box',\r\n  component: PasswordBoxComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    iconChoose: {\r\n      description: 'The FontAwesome icon to use for the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faPenToSquare'\r\n        },\r\n      },\r\n    },\r\n    iconChooseTitle: {\r\n      description: 'The title for the \"choose\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Generate strong password for me',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Generate strong password for me'\r\n      }\r\n    },\r\n    iconHide: {\r\n      description: 'The FontAwesome icon to use for the \"hide password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEyeSlash'\r\n        }\r\n      },\r\n    },\r\n    iconHideTitle: {\r\n      description: 'The title for the \"hide password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Hide password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Hide password',\r\n      }\r\n    },\r\n    iconShow: {\r\n      description: 'The FontAwesome icon to use for the \"show password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEye'\r\n        }\r\n      },\r\n    },\r\n    iconShowTitle: {\r\n      description: 'The title for the \"show password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Show password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Show password',\r\n      }\r\n    },\r\n    enableChoose: {\r\n      description: 'Whether to enable the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableShowHide: {\r\n      description: 'Whether to enable the \"show/hide password\" buttons',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableStrengthMeter: {\r\n      description: 'Whether to enable the strength meter below the input',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    id: {\r\n      description: 'The id for the input element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'an auto-generated UUID',\r\n        },\r\n      },\r\n    },\r\n    label: {\r\n      description: 'The text content of the label element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password',\r\n        },\r\n      },\r\n    },\r\n    minStrength: {\r\n      description: 'The minium strength required for the password to be valid',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'RequiredStrength (1 | 2 | 3)',\r\n        },\r\n        defaultValue: {\r\n          summary: '4',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'number',\r\n        value: 4,\r\n        max: 4,\r\n        min: 1,\r\n      },\r\n    },\r\n    onChange: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    onTouched: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    passwordStrengthChanged: {\r\n      description: 'An event emitted when the strength of the password changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'StrengthChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordTypeChanged: {\r\n      description: 'An event emitted when the type attribute of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'TypeChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordValueChanged: {\r\n      description: 'An event emitted when the value of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'ValueChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    registerOnChange: {\r\n      description: 'Register an onChange function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '(value: string) => void'\r\n        },\r\n      }\r\n    },\r\n    registerOnTouched: {\r\n      description: 'Register an onTouched function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '() => void'\r\n        },\r\n      }\r\n    },\r\n    setDisabledState: {\r\n      description: 'Set isDisabled to passed value',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'true | false'\r\n        },\r\n      }\r\n    },\r\n    strengthMeterAriaLabel: {\r\n      description: 'The aria-label for the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password strength meter',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Password strength meter',\r\n      }\r\n    },\r\n    strengthMeterMode: {\r\n      description: 'The mode of the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'multi',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'multi',\r\n      }\r\n    },\r\n    switchToAndFocusInputAfterGenerate: {\r\n      description: 'Whether to enable behavior where the password is displayed and input is focused after generating a password',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    switchType: {\r\n      description: 'Change the input type attribute',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'password | text'\r\n        }\r\n      },\r\n    },\r\n    type: {\r\n      description: 'The value of the type attribute on the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'password | text',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'password',\r\n      }\r\n    },\r\n    validate: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    value: {\r\n      description: 'The value of the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true,\r\n      }\r\n    },\r\n  },\r\n  args: {\r\n    passwordStrengthChanged: fn(),\r\n    passwordTypeChanged: fn(),\r\n    passwordValueChanged: fn(),\r\n  },\r\n  parameters: {\r\n    cssprops: {\r\n      iconHoverColor: {\r\n        category: 'icons',\r\n        value: 'initial',\r\n        description: 'The color of the icons',\r\n      },\r\n      iconHoverFocusOpacity: {\r\n        category: 'icons',\r\n        value: '.5',\r\n        description: 'The \"hover style\" of the icons',\r\n      },\r\n      iconHoverFocusOutline: {\r\n        category: 'icons',\r\n        value: 'none',\r\n        description: 'The focus outline style of the icons',\r\n      },\r\n      inputBorderColor: {\r\n        category: 'input',\r\n        value: '#000',\r\n        description: 'The color of the border for the input',\r\n      },\r\n      inputBorderRadius: {\r\n        category: 'input',\r\n        value: '.25rem',\r\n        description: 'The border-radius of the input',\r\n      },\r\n      inputBorderStyle: {\r\n        category: 'input',\r\n        value: 'solid',\r\n        description: 'The border-style of the input',\r\n      },\r\n      inputBorderWidth: {\r\n        category: 'input',\r\n        value: '2px',\r\n        description: 'The border-width of the input',\r\n      },\r\n      inputFontFamily: {\r\n        category: 'input',\r\n        value: 'Arial, Helvetica, sans-serif',\r\n        description: 'The font-family of the input',\r\n      },\r\n      inputFontSize: {\r\n        category: 'input',\r\n        value: '16px',\r\n        description: 'The font-size of the input',\r\n      },\r\n      inputMarginBottom: {\r\n        category: 'input',\r\n        value: '0',\r\n        description: 'The margin-bottom of the input',\r\n      },\r\n      inputPadding: {\r\n        category: 'input',\r\n        value: '.5rem',\r\n        description: 'The padding of the input',\r\n      },\r\n      labelColor: {\r\n        value: '#000',\r\n        category: 'label',\r\n        description: 'The font color of the label',\r\n      },\r\n      labelFontFamily: {\r\n        value: 'Arial, Helvetica, sans-serif',\r\n        category: 'label',\r\n        description: 'The font-family for the label',\r\n      },\r\n      labelFontSize: {\r\n        value: '16px',\r\n        category: 'label',\r\n        description: 'The font-size for the label',\r\n      },\r\n      labelMargin: {\r\n        value: '0 0 .25rem 0',\r\n        category: 'label',\r\n        description: 'The margin for the label',\r\n      },\r\n      strengthMeterBarHeight: {\r\n        value: '1rem',\r\n        category: 'strength meter',\r\n        description: 'The height of the blocks in the strength meter',\r\n      },\r\n      strengthMeterPadding: {\r\n        value: '.5rem 0 0',\r\n        category: 'strength meter',\r\n        description: 'The padding of the blocks in the strength meter',\r\n      },\r\n      strengthMeterInitial: {\r\n        value: '#ffffff',\r\n        category: 'strength meter',\r\n        description: 'The initial background-color of the blocks in the strength meter',\r\n      },\r\n      strengthMeterTooWeak: {\r\n        value: '#ff0000',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the blocks in the strength meter when the password is too weak',\r\n      },\r\n      strengthMeterWeak: {\r\n        value: '#ff0000',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the first block in the strength meter when the password is weak',\r\n      },\r\n      strengthMeterMedium: {\r\n        value: '#ffee00',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the first two blocks in the strength meter when the password is medium',\r\n      },\r\n      strengthMeterStrong: {\r\n        value: '#15ff00',\r\n        category: 'strength meter',\r\n        description: 'The background-color of all the blocks in the strength meter when the password is strong',\r\n      },\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "NoIcons",
@@ -978,6 +1019,16 @@
                 "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n}"
             },
             {
+                "name": "StrengthMeterDuotoneMode",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/dw-ui/src/stories/password-box.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Password',\r\n    strengthMeterMode: 'duotone',\r\n  },\r\n}"
+            },
+            {
                 "name": "TextType",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -995,6 +1046,17 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "\"password\" | \"text\"",
+                "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 192
+            },
+            {
+                "name": "RequiredStrength",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"1\" | \"2\" | \"3\"",
                 "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1022,6 +1084,17 @@
                 "deprecationMessage": "",
                 "description": "",
                 "kind": 187
+            },
+            {
+                "name": "StrengthMeterMode",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"multi\" | \"duotone\"",
+                "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 192
             },
             {
                 "name": "TypeChangedEvent",
@@ -1087,7 +1160,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PasswordBoxComponent>",
-                    "defaultValue": "{\r\n  title: 'Components/password-box',\r\n  component: PasswordBoxComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    iconChoose: {\r\n      description: 'The FontAwesome icon to use for the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faPenToSquare'\r\n        },\r\n      },\r\n    },\r\n    iconChooseTitle: {\r\n      description: 'The title for the \"choose\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Generate strong password for me',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    iconHide: {\r\n      description: 'The FontAwesome icon to use for the \"hide password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEyeSlash'\r\n        }\r\n      },\r\n    },\r\n    iconHideTitle: {\r\n      description: 'The title for the \"hide password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Hide password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    iconShow: {\r\n      description: 'The FontAwesome icon to use for the \"show password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEye'\r\n        }\r\n      },\r\n    },\r\n    iconShowTitle: {\r\n      description: 'The title for the \"show password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Show password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    enableChoose: {\r\n      description: 'Whether to enable the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableShowHide: {\r\n      description: 'Whether to enable the \"show/hide password\" buttons',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableStrengthMeter: {\r\n      description: 'Whether to enable the strength meter below the input',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    id: {\r\n      description: 'The id for the input element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'an auto-generated UUID',\r\n        },\r\n      },\r\n    },\r\n    label: {\r\n      description: 'The text content of the label element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password',\r\n        },\r\n      },\r\n    },\r\n    onChange: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    onTouched: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    passwordStrengthChanged: {\r\n      description: 'An event emitted when the strength of the password changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'StrengthChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordTypeChanged: {\r\n      description: 'An event emitted when the type attribute of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'TypeChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordValueChanged: {\r\n      description: 'An event emitted when the value of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'ValueChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    registerOnChange: {\r\n      description: 'Register an onChange function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '(value: string) => void'\r\n        },\r\n      }\r\n    },\r\n    registerOnTouched: {\r\n      description: 'Register an onTouched function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '() => void'\r\n        },\r\n      }\r\n    },\r\n    setDisabledState: {\r\n      description: 'Set isDisabled to passed value',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'true | false'\r\n        },\r\n      }\r\n    },\r\n    strengthMeterAriaLabel: {\r\n      description: 'The aria-label for the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password strength meter',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    switchToAndFocusInputAfterGenerate: {\r\n      description: 'Whether to enable behavior where the password is displayed and input is focused after generating a password',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    switchType: {\r\n      description: 'Change the input type attribute',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'password | text'\r\n        }\r\n      },\r\n    },\r\n    type: {\r\n      description: 'The value of the type attribute on the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'password | text',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n    validate: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    value: {\r\n      description: 'The value of the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n      }\r\n    },\r\n  },\r\n  args: {\r\n    passwordStrengthChanged: fn(),\r\n    passwordTypeChanged: fn(),\r\n    passwordValueChanged: fn(),\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  title: 'Components/password-box',\r\n  component: PasswordBoxComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    iconChoose: {\r\n      description: 'The FontAwesome icon to use for the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faPenToSquare'\r\n        },\r\n      },\r\n    },\r\n    iconChooseTitle: {\r\n      description: 'The title for the \"choose\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Generate strong password for me',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Generate strong password for me'\r\n      }\r\n    },\r\n    iconHide: {\r\n      description: 'The FontAwesome icon to use for the \"hide password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEyeSlash'\r\n        }\r\n      },\r\n    },\r\n    iconHideTitle: {\r\n      description: 'The title for the \"hide password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Hide password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Hide password',\r\n      }\r\n    },\r\n    iconShow: {\r\n      description: 'The FontAwesome icon to use for the \"show password\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'IconDefinition',\r\n        },\r\n        defaultValue: {\r\n          summary: 'faEye'\r\n        }\r\n      },\r\n    },\r\n    iconShowTitle: {\r\n      description: 'The title for the \"show password\" icon',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Show password',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Show password',\r\n      }\r\n    },\r\n    enableChoose: {\r\n      description: 'Whether to enable the \"choose password for me\" button',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableShowHide: {\r\n      description: 'Whether to enable the \"show/hide password\" buttons',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    enableStrengthMeter: {\r\n      description: 'Whether to enable the strength meter below the input',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    id: {\r\n      description: 'The id for the input element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'an auto-generated UUID',\r\n        },\r\n      },\r\n    },\r\n    label: {\r\n      description: 'The text content of the label element',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password',\r\n        },\r\n      },\r\n    },\r\n    minStrength: {\r\n      description: 'The minium strength required for the password to be valid',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'RequiredStrength (1 | 2 | 3)',\r\n        },\r\n        defaultValue: {\r\n          summary: '4',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'number',\r\n        value: 4,\r\n        max: 4,\r\n        min: 1,\r\n      },\r\n    },\r\n    onChange: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    onTouched: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    passwordStrengthChanged: {\r\n      description: 'An event emitted when the strength of the password changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'StrengthChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordTypeChanged: {\r\n      description: 'An event emitted when the type attribute of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'TypeChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    passwordValueChanged: {\r\n      description: 'An event emitted when the value of the input changes',\r\n      table: {\r\n        category: 'outputs',\r\n        type: {\r\n          summary: 'ValueChangedEvent',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true\r\n      }\r\n    },\r\n    registerOnChange: {\r\n      description: 'Register an onChange function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '(value: string) => void'\r\n        },\r\n      }\r\n    },\r\n    registerOnTouched: {\r\n      description: 'Register an onTouched function',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: '() => void'\r\n        },\r\n      }\r\n    },\r\n    setDisabledState: {\r\n      description: 'Set isDisabled to passed value',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'true | false'\r\n        },\r\n      }\r\n    },\r\n    strengthMeterAriaLabel: {\r\n      description: 'The aria-label for the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'Password strength meter',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'Password strength meter',\r\n      }\r\n    },\r\n    strengthMeterMode: {\r\n      description: 'The mode of the password strength meter',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: 'multi',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'multi',\r\n      }\r\n    },\r\n    switchToAndFocusInputAfterGenerate: {\r\n      description: 'Whether to enable behavior where the password is displayed and input is focused after generating a password',\r\n      table: {\r\n        category: 'inputs',\r\n        type: {\r\n          summary: 'boolean',\r\n        },\r\n        defaultValue: {\r\n          summary: 'true'\r\n        }\r\n      },\r\n      control: {\r\n        type: 'boolean'\r\n      },\r\n    },\r\n    switchType: {\r\n      description: 'Change the input type attribute',\r\n      table: {\r\n        category: 'methods',\r\n        type: {\r\n          summary: 'password | text'\r\n        }\r\n      },\r\n    },\r\n    type: {\r\n      description: 'The value of the type attribute on the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'password | text',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        type: 'text',\r\n        value: 'password',\r\n      }\r\n    },\r\n    validate: {\r\n      table: {\r\n        disable: true,\r\n      },\r\n    },\r\n    value: {\r\n      description: 'The value of the input',\r\n      table: {\r\n        category: 'properties',\r\n        type: {\r\n          summary: 'string',\r\n        },\r\n        defaultValue: {\r\n          summary: '',\r\n        },\r\n      },\r\n      control: {\r\n        disable: true,\r\n      }\r\n    },\r\n  },\r\n  args: {\r\n    passwordStrengthChanged: fn(),\r\n    passwordTypeChanged: fn(),\r\n    passwordValueChanged: fn(),\r\n  },\r\n  parameters: {\r\n    cssprops: {\r\n      iconHoverColor: {\r\n        category: 'icons',\r\n        value: 'initial',\r\n        description: 'The color of the icons',\r\n      },\r\n      iconHoverFocusOpacity: {\r\n        category: 'icons',\r\n        value: '.5',\r\n        description: 'The \"hover style\" of the icons',\r\n      },\r\n      iconHoverFocusOutline: {\r\n        category: 'icons',\r\n        value: 'none',\r\n        description: 'The focus outline style of the icons',\r\n      },\r\n      inputBorderColor: {\r\n        category: 'input',\r\n        value: '#000',\r\n        description: 'The color of the border for the input',\r\n      },\r\n      inputBorderRadius: {\r\n        category: 'input',\r\n        value: '.25rem',\r\n        description: 'The border-radius of the input',\r\n      },\r\n      inputBorderStyle: {\r\n        category: 'input',\r\n        value: 'solid',\r\n        description: 'The border-style of the input',\r\n      },\r\n      inputBorderWidth: {\r\n        category: 'input',\r\n        value: '2px',\r\n        description: 'The border-width of the input',\r\n      },\r\n      inputFontFamily: {\r\n        category: 'input',\r\n        value: 'Arial, Helvetica, sans-serif',\r\n        description: 'The font-family of the input',\r\n      },\r\n      inputFontSize: {\r\n        category: 'input',\r\n        value: '16px',\r\n        description: 'The font-size of the input',\r\n      },\r\n      inputMarginBottom: {\r\n        category: 'input',\r\n        value: '0',\r\n        description: 'The margin-bottom of the input',\r\n      },\r\n      inputPadding: {\r\n        category: 'input',\r\n        value: '.5rem',\r\n        description: 'The padding of the input',\r\n      },\r\n      labelColor: {\r\n        value: '#000',\r\n        category: 'label',\r\n        description: 'The font color of the label',\r\n      },\r\n      labelFontFamily: {\r\n        value: 'Arial, Helvetica, sans-serif',\r\n        category: 'label',\r\n        description: 'The font-family for the label',\r\n      },\r\n      labelFontSize: {\r\n        value: '16px',\r\n        category: 'label',\r\n        description: 'The font-size for the label',\r\n      },\r\n      labelMargin: {\r\n        value: '0 0 .25rem 0',\r\n        category: 'label',\r\n        description: 'The margin for the label',\r\n      },\r\n      strengthMeterBarHeight: {\r\n        value: '1rem',\r\n        category: 'strength meter',\r\n        description: 'The height of the blocks in the strength meter',\r\n      },\r\n      strengthMeterPadding: {\r\n        value: '.5rem 0 0',\r\n        category: 'strength meter',\r\n        description: 'The padding of the blocks in the strength meter',\r\n      },\r\n      strengthMeterInitial: {\r\n        value: '#ffffff',\r\n        category: 'strength meter',\r\n        description: 'The initial background-color of the blocks in the strength meter',\r\n      },\r\n      strengthMeterTooWeak: {\r\n        value: '#ff0000',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the blocks in the strength meter when the password is too weak',\r\n      },\r\n      strengthMeterWeak: {\r\n        value: '#ff0000',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the first block in the strength meter when the password is weak',\r\n      },\r\n      strengthMeterMedium: {\r\n        value: '#ffee00',\r\n        category: 'strength meter',\r\n        description: 'The background-color of the first two blocks in the strength meter when the password is medium',\r\n      },\r\n      strengthMeterStrong: {\r\n        value: '#15ff00',\r\n        category: 'strength meter',\r\n        description: 'The background-color of all the blocks in the strength meter when the password is strong',\r\n      },\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "NoIcons",
@@ -1108,6 +1181,16 @@
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\r\n  args: {\r\n    label: 'Password',\r\n    enableStrengthMeter: false,\r\n  },\r\n}"
+                },
+                {
+                    "name": "StrengthMeterDuotoneMode",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/dw-ui/src/stories/password-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Password',\r\n    strengthMeterMode: 'duotone',\r\n  },\r\n}"
                 },
                 {
                     "name": "TextType",
@@ -1149,6 +1232,17 @@
                     "kind": 192
                 },
                 {
+                    "name": "RequiredStrength",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"1\" | \"2\" | \"3\"",
+                    "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 192
+                },
+                {
                     "name": "StrengthChangedEvent",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
@@ -1158,6 +1252,17 @@
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 187
+                },
+                {
+                    "name": "StrengthMeterMode",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"multi\" | \"duotone\"",
+                    "file": "projects/dw-ui/src/lib/password-box/password-box.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 192
                 },
                 {
                     "name": "TypeChangedEvent",
@@ -1218,7 +1323,7 @@
                 "linktype": "component",
                 "name": "PasswordBoxComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/48",
+                "coverageCount": "0/51",
                 "status": "low"
             },
             {
@@ -1277,6 +1382,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "NoStrengthMeter",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/dw-ui/src/stories/password-box.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "StrengthMeterDuotoneMode",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"

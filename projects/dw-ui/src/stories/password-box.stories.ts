@@ -167,7 +167,7 @@ const meta: Meta<PasswordBoxComponent> = {
       table: {
         category: 'inputs',
         type: {
-          summary: 'RequiredStrength (1 | 2 | 3 | 4)',
+          summary: 'RequiredStrength (1 | 2 | 3)',
         },
         defaultValue: {
           summary: '4',
@@ -267,6 +267,22 @@ const meta: Meta<PasswordBoxComponent> = {
       control: {
         type: 'text',
         value: 'Password strength meter',
+      }
+    },
+    strengthMeterMode: {
+      description: 'The mode of the password strength meter',
+      table: {
+        category: 'inputs',
+        type: {
+          summary: 'string',
+        },
+        defaultValue: {
+          summary: 'multi',
+        },
+      },
+      control: {
+        type: 'text',
+        value: 'multi',
       }
     },
     switchToAndFocusInputAfterGenerate: {
@@ -433,19 +449,19 @@ const meta: Meta<PasswordBoxComponent> = {
         description: 'The background-color of the blocks in the strength meter when the password is too weak',
       },
       strengthMeterWeak: {
-        value: '#fdc673',
+        value: '#ff0000',
         category: 'strength meter',
-        description: 'The background-color of the blocks in the strength meter when the password is too weak',
+        description: 'The background-color of the first block in the strength meter when the password is weak',
       },
       strengthMeterMedium: {
         value: '#ffee00',
         category: 'strength meter',
-        description: 'The initial background-color of the blocks in the strength meter when the password is medium',
+        description: 'The background-color of the first two blocks in the strength meter when the password is medium',
       },
       strengthMeterStrong: {
         value: '#15ff00',
         category: 'strength meter',
-        description: 'The initial background-color of the blocks in the strength meter when the password is strong',
+        description: 'The background-color of all the blocks in the strength meter when the password is strong',
       },
     }
   }
@@ -493,5 +509,12 @@ export const NoStrengthMeter: Story = {
   args: {
     label: 'Password',
     enableStrengthMeter: false,
+  },
+};
+
+export const StrengthMeterDuotoneMode: Story = {
+  args: {
+    label: 'Password',
+    strengthMeterMode: 'duotone',
   },
 };
