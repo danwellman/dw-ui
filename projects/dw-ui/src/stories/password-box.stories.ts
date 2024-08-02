@@ -490,7 +490,6 @@ export const CustomLabel: Story = {
 
 export const CustomIcons: Story = {
   args: {
-    label: 'Password',
     iconShow: faThumbsUp,
     iconHide: faThumbsDown,
     iconChoose: faFaceSurprise,
@@ -499,7 +498,6 @@ export const CustomIcons: Story = {
 
 export const NoIcons: Story = {
   args: {
-    label: 'Password',
     enableShowHide: false,
     enableChoose: false,
   },
@@ -507,14 +505,19 @@ export const NoIcons: Story = {
 
 export const NoStrengthMeter: Story = {
   args: {
-    label: 'Password',
     enableStrengthMeter: false,
   },
 };
 
 export const StrengthMeterDuotoneMode: Story = {
   args: {
-    label: 'Password',
     strengthMeterMode: 'duotone',
   },
+};
+
+export const LowStrength: Story = {
+  args: {
+    minStrength: 2,
+    strengthMeterMode: 'duotone',
+  }
 };
