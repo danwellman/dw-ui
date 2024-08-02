@@ -170,13 +170,13 @@ const meta: Meta<PasswordBoxComponent> = {
           summary: 'RequiredStrength (1 | 2 | 3)',
         },
         defaultValue: {
-          summary: '4',
+          summary: '3',
         },
       },
       control: {
         type: 'number',
-        value: 4,
-        max: 4,
+        value: 3,
+        max: 3,
         min: 1,
       },
     },
