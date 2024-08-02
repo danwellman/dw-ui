@@ -75,10 +75,10 @@ export class PasswordBoxComponent implements ControlValueAccessor {
 
   public validate({ value }: FormControl) {
     const strength = passwordStrength(value).id;
-    const isNotValid = strength !== this.minStrength();
-    return isNotValid && {
-      invalid: true,
-    }
+    const isNotValid = strength < this.minStrength();
+
+    if (isNotValid) return isNotValid && { invalid: true };
+    return true;
   }
 
   public writeValue(value: string): void {
@@ -140,6 +140,8 @@ export class PasswordBoxComponent implements ControlValueAccessor {
     if (this.strengthWord !== existingWordValue) {
       this.passwordStrengthChanged.emit({ strengthWord: this.strengthWord, strengthId: this.strengthValue });
     }
+
+    this.onTouched();
 
     if (this.switchToAndFocusInputAfterGenerate()) {
       const chooseIconEl = this.getChooseIcon();
